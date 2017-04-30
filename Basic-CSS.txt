@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS selectors practice</title>
+  <meta charset="utf-8">
+  <style>
+  *{
+    text-decoration: none;
+    font-family: Helvetica sans-serif;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  #tagline{
+    font-style: italic;
+  }
+  .highlight{
+    background: yellow;
+  }
+div.highlight{
+    background: gray;
+    padding: 0px 10px;
+  }
+  div p{
+    font-size: 14px;
+  }
+  p.intro + p{
+    font-style:italic;
+  }
+  div.article a{
+    font-weight: bold;
+  }
+  h1, h3{
+    text-decoration: underline;
+  }
+  div > h3{
+    color: green
+  }
+  </style>
+</head>
+<body>
+  <h1>Lorem Ipsum is the simple dummy text</h1>
+  <h3>of the printing and typesetting industry</h3>
+  <div class="article">
+    <p class="intro">Lorem Ipsum is <a href="http://example.com/" target="_blank">simply dummy text</a> of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is <span class="highlight">simply dummy text</span> of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is <a href="http://example.com" target="_blank">simply dummy text</a> of the printing and typesetting industry.</p>
+    <h3>Subhed</h3>
+    <p>Lorem <span class="highlight">Ipsum</span> is simply dummy text of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p><a href="http://example.com/" target="_blank">Lorem Ipsum</a> is simply dummy text of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p id="tagline">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  </div>
+  <div class="highlight">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  </div>
+</body>
