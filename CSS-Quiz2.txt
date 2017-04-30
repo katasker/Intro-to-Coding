@@ -1,4 +1,4 @@
-#use css selectors to change the HTML page given. Like in the past CSS exercises, you shouldn't change the HTML except to add CSS. Instead, you should use the appropriate selectors to write rules that don't require HTML modifications.
+//#use css selectors to change the HTML page given. Like in the past CSS exercises, you shouldn't change the HTML except to add CSS. Instead, you should use the appropriate selectors to write rules that don't require HTML modifications.//
 <!DOCTYPE html>
 <html>
 <head>
