@@ -1,3 +1,4 @@
+#Assignment: lay out a short news story using Bootstrap's grid/column system, then add some custom styles to make it unique.
 <!DOCTYPE html>
 <html>
 <head>
