@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<script>
+var x = 10;
+var y =5;
+var z = x * y;
+//COMMENT: variables (var; examples below)
+//var yourName = prompt('What is your name?');
+//var greeting = 'Hello, ' + yourName;
+//alert(greeting);
+
+//COMMENT: functions (example below)
+function sayHello(name) {
+  var greeting = 'Hello, ' + name;
+  alert(greeting);
+}
+//sayHello('Andrew');
+//sayHello('Annie');
+
+//COMMENT: Boolean value (i.e. true or false; if/else)
+//boolean can be used for number or string comparisons
+
+//true
+//false
+
+//var age = prompt('Age?');
+
+//if(age>=21){alert('Allowed');}
+//else{  alert('Go Away');}
+
+//COMMENT: boolean string example
+var salutation = prompt('Salutation?');
+
+if(salutation =='Hey'){
+  var greeting = 'Hey!!!!!';
+  alert(greeting);
+}
+else{
+  alert('Yo');
+}
+
+//another option other than alert, to write straight to the console
+console.log(var)
+</script>
