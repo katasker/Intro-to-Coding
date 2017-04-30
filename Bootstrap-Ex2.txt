@@ -1,4 +1,4 @@
-#grids, columns, formatting with bootstrap
+//#grids, columns, formatting with bootstrap//
 <!DOCTYPE html>
 <html>
 <head>
