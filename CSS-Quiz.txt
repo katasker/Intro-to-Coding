@@ -1,0 +1,59 @@
+#use css selectors to change the HTML page given. Like in the past CSS exercises, you shouldn't change the HTML except to add CSS. Instead, you should use the appropriate selectors to write rules that don't require HTML modifications.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS selectors quiz</title>
+  <meta charset="utf-8">
+  <style>
+  .contact-info p{
+    font-style: italic;
+  }
+  .menu{
+    list-style-type: none;
+    padding-left: 0
+  }
+  h1, h3{
+    font-family: Arial;
+  }
+  h3{
+    text-transform: uppercase;
+  }
+  .bio{
+    font-size: 15px;
+    color: gray;
+  }
+  .menu{
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <h1>My website</h1>
+  <h3>Important links</h3>
+  <ul class="menu">
+    <li><a href="http://example.com/">Resume</a></li>
+    <li><a href="http://example.com/">Portfolio</a></li>
+    <li><a href="http://example.com/">Contact</a></li>
+  </ul>
+  <h3>My bio</h3>
+  <div class="bio">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is <a href="http://example.com">simply dummy text</a> of the printing and typesetting industry.</p>
+    <h3>Subhed</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <h3>Subhed</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  </div>
+  <h3>Contact information</h3>
+  <div class="contact-info">
+    <p>Contact me at the e-mail address and phone number below:</p>
+    <ul>
+      <li>E-mail</li>
+      <li>Phone</li>
+    </ul>
+  </div>
+</body>
