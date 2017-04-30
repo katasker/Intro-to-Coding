@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <title>Kaitlin Tasker</title>
+  <style>
+  .page-header{
+    font-family: 'Libre Baskerville', serif;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>Pulitzer Board Adds Giant Pumpkin Category</h1>
+    </div>
+    <div class="row">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <img src="http://static.dnaindia.com/sites/default/files/2015/04/22/329846-pulitzer.jpg" class="img-responsive">
+        <p class="text-muted">The Pulitzer Prize</p>
+        </div>
+    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+      <p>NEW YORK — The Pulitzer Prize Board announced Friday that it was expanding the scope of its prestigious journalism and arts awards with the introduction of a new Giant Pumpkin category.</p>
+      <p>Recognizing the hugest pumpkins is another way to honor the standard of excellence embodied by the Pulitzer Prize," said co-chair Ann Marie Lipinski, adding that the forklift and industrial platform scale to be used for Pulitzer weigh-ins had already been brought into the board’s Columbia University office.</p>
+      <p>Over the years, we have conferred honors upon some of the most distinguished writers and artists in the nation, and all pumpkins under consideration will be required to have attained that same level of achievement.</p>
+      <p>Although the official Pulitzer finalists will not be announced until April, favorites to win include The New York Times, The Baltimore Sun, and "Big Bertha," a 1,587-pound pumpkin grown in Lodi, WI.</p>
+    </div>
+  </div>
+</body>
