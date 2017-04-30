@@ -1,0 +1,57 @@
+#For this quiz, you're going to make an HTML resume. You'll use the HTML tags we've learned in class so far. You should start with an empty .html document in Atom. Be sure to check your work often in the browser as you're adding new code.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kaitlin A. Tasker</title>
+  </head>
+  <body>
+    <h1>Kaitlin A. Tasker</h1>
+    <h4>Graduate Student in Geography and the Environment</h4>
+    <h2>Coursework</h2>
+    <ul>
+      <li><a href="http://journalism.utexas.edu/" target="_blank">Intro to Coding for Journalists</a></li>
+      <li><a href="http://journalism.utexas.edu/" target="_blank">Mapping in Storytelling</a></li>
+      <li class="major"><a href="http://www.utexas.edu/cola/geography/">Geopolitics</a></li>
+      <li class="major"><a href="http://www.utexas.edu/cola/geography/">Geoprocessing</a></li>
+      <li class="major"><a href="http://www.utexas.edu/cola/geography/">Thesis Independent Study</a></li>
+      <li class="major"><a href="https://education.utexas.edu/departments/educational-psychology/doctoral-specializations/quantitative-methods">Fundamental Statistics</a></li>
+      <li class="major"><a href="https://education.utexas.edu/departments/educational-psychology/doctoral-specializations/quantitative-methods">Correlation and Regression</a></li>
+    </ul>
+    <h2>Skills</h2>
+    <h3>Software/Coding/Scripting</h3>
+    <h4>Experienced/Advanced Proficiency</h4>
+    <ul>
+      <li>ArcGIS</li>
+      <li>Stata</li>
+      <li>MATLAB</li>
+      <li>Excel Pivot Tables</li>
+    </ul>
+    <h4>Intermediate Proficiency</h4>
+    <ul>
+      <li>QGIS</li>
+      <li>Illustrator</li>
+      <li>InDesign</li>
+      <li>R</li>
+      <li>Python</li>
+    </ul>
+    <h4>Basic/Beginner Proficiency</h4>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JQuery</li>
+      <li>JavaScript</li>
+    </ul>
+    <h3>Languages</h3>
+    <ul>
+      <li>English - Native Speaker </li>
+      <li>Spanish - Fluent </li>
+      <li> Portuguese - Written Working Proficiency, Intermediate Oral Proficiency </li>
+    </ul>
+    <h3>Miscelaneous</h3>
+    <ul>
+      <li>Technical Writing</li>
+      <li>Editing</li>
+      <li>Cartography</li>
+    </ul>
+  </body>
+</html>
