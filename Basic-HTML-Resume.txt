@@ -1,4 +1,4 @@
-#For this quiz, you're going to make an HTML resume. You'll use the HTML tags we've learned in class so far. You should start with an empty .html document in Atom. Be sure to check your work often in the browser as you're adding new code.
+//#For this quiz, you're going to make an HTML resume. You'll use the HTML tags we've learned in class so far. You should start with an empty .html document in Atom. Be sure to check your work often in the browser as you're adding new code.//
 <!DOCTYPE html>
 <html>
   <head>
