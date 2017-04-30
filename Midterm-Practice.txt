@@ -1,3 +1,5 @@
+#Practice for the midterm exam--format a blog post using Bootstrap's grid and some custom CSS styles, which you'll write yourself. You should do the below in a new Github repository, which you'll submit for feedback if you choose to complete this review.
+
 <!DOCTYPE html>
 <html>
 <head>
