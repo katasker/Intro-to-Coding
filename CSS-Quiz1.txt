@@ -1,4 +1,4 @@
-# You'll be writing 10 CSS rules for this quiz. You're responsible for adding the CSS to the page using what you've learned in past classes. The HTML for the quiz is provided below.
+//# You'll be writing 10 CSS rules for this quiz. You're responsible for adding the CSS to the page using what you've learned in past classes. The HTML for the quiz is provided below.//
  <!DOCTYPE html>
 <head>
   <title>CSS quiz</title>
