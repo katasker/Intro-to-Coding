@@ -1,0 +1,41 @@
+# You'll be writing 10 CSS rules for this quiz. You're responsible for adding the CSS to the page using what you've learned in past classes. The HTML for the quiz is provided below.
+ <!DOCTYPE html>
+<head>
+  <title>CSS quiz</title>
+  <meta charset="utf-8">
+  <style>
+  h1{
+    font-size: 25px;
+  }
+  h3{
+    font-style: italic;
+    font-weight: normal;
+  }
+#my-page{
+    border: 3px solid gray;
+    padding: 15px;
+  }
+.intro {
+  font-size: 110%;
+}
+.tagline {
+  font-weight: bold;
+}
+a{
+  color: green;
+}
+  </style>
+</head>
+<body>
+  <div id="my-page">
+    <h1>My awesome article</h1>
+    <h3>By <a href="mailto:achavez@dallasnews.com">Andrew Chavez</a></h3>
+    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in faucibus dui.</p>
+    <p>Integer quis ultricies turpis. Aenean efficitur, sem in cursus volutpat, massa metus venenatis purus, vitae commodo est quam sed ex.</p>
+    <p>Etiam ut turpis interdum, rutrum tellus a, blandit odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+    <p>Morbi aliquam posuere magna, sed dictum purus venenatis eget. Integer convallis turpis eu orci suscipit, iaculis dictum dui cursus. Vestibulum aliquam.</p>
+    <div>
+      <p class="tagline">Etiam ut turpis interdum, rutrum tellus a, blandit odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+    </div>
+  </div>
+</body>
