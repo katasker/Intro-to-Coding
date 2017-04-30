@@ -1,0 +1,31 @@
+//#Write five functions: one to calculate sales tax, one to create a hashtag, one to calculate tweet length, one to find longest string; and call the functions three times to ensure they work before submitting//
+<!DOCTYPE html>
+<script>
+//#1: Sales tax Calculator//
+function salesTax(amount) {
+    return amount * 1.0825;
+}
+
+//#2: Hashtag creator//
+function hashtag(tag) {
+    return '#' + tag;
+}
+
+//#3: Tweet length calculator//
+function tweetLength(tweet) {
+    return 140 - tweet.length;
+}
+
+//#4: Tweet length validator//
+function tweetChecker(tweet) {
+    if(tweet.length>140) {return 'The string is too long for a tweet.';}
+    else {return 'The string is a valid tweet length.';}
+}
+
+//#5: Longest string//
+function longestString(stringA, stringB, stringC) {
+    if(stringA > stringB && stringA > stringC) {return stringC;}
+    else if(stringB > stringA && stringB > stringC) {return stringB;}
+    else if(stringC > stringA && stringC > stringB) {return stringC;}
+}
+</script>
